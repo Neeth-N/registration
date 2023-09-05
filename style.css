@@ -33,6 +33,13 @@ body{
     text-align: center;
 }
 
+.wrap h2{
+    
+    font-size: 36px;
+    text-align: center;
+    transform: translateY(125%);
+}
+
 .wrap .input-box{
     position: relative;
     width: 100%;
