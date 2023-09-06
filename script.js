@@ -10,8 +10,14 @@ form.addEventListener('submit', e => {
 
 const btn = document.querySelector("#btn");
 const btnText = document.querySelector("#btnText");
+const inputField = document.getElementById("inputField");
+
 
 btn.onclick = () => {
+  if (inputField.value.trim() !== "") {
     btnText.innerHTML = "Thanks";
     btn.classList.add("active");
+  } else {
+    btn.classList.remove("active");
+  }
 };
